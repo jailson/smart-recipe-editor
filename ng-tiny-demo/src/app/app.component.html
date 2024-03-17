@@ -65,8 +65,7 @@
     width: 100%;
     min-height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     padding: 1rem;
     box-sizing: inherit;
     position: relative;
@@ -78,10 +77,10 @@
 
   .content {
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     width: 100%;
-    max-width: 700px;
-    margin-bottom: 3rem;
+    max-width: 1000px;
+    margin-bottom: 2rem;
   }
 
   .content h1 {
@@ -325,7 +324,7 @@
         </svg>              
       <h1>Hello NG Conf</h1>
       <p>Congratulations! Your demo is running. 🎉</p>
-      <editor [init]="{
+      <editor apiKey="your-api-key" [init]="{
         plugins: 'lists link image table code help wordcount'
       }"></editor>
     </div>
@@ -381,7 +380,7 @@
           </svg>
         </a>
         <a
-          href="https://twitter.com/angular"
+          href="https://twitter.com/joinTiny"
           aria-label="Twitter"
           target="_blank"
           rel="noopener"
@@ -400,7 +399,7 @@
           </svg>
         </a>
         <a
-          href="https://www.youtube.com/channel/UCbn1OgGei-DV7aSRo_HaAiw"
+          href="https://www.youtube.com/@joinTinyMCE"
           aria-label="Youtube"
           target="_blank"
           rel="noopener"
