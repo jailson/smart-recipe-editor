@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng-tiny-demo": {
+    "smart-recipe-editor": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/ng-tiny-demo",
+            "outputPath": "dist/smart-recipe-editor",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ng-tiny-demo:build:production"
+              "buildTarget": "smart-recipe-editor:build:production"
             },
             "development": {
-              "buildTarget": "ng-tiny-demo:build:development"
+              "buildTarget": "smart-recipe-editor:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ng-tiny-demo:build"
+            "buildTarget": "smart-recipe-editor:build"
           }
         },
         "test": {

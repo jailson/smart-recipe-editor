@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'ng-tiny-demo' title`, () => {
+  it(`should have the 'smart-recipe-editor' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ng-tiny-demo');
+    expect(app.title).toEqual('smart-recipe-editor');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ng-tiny-demo');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, smart-recipe-editor');
   });
 });

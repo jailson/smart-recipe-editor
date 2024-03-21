@@ -1,5 +1,5 @@
 {
-  "name": "ng-tiny-demo",
+  "name": "smart-recipe-editor",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:ng-tiny-demo": "node dist/ng-tiny-demo/server/server.mjs"
+    "serve:ssr:smart-recipe-editor": "node dist/smart-recipe-editor/server/server.mjs"
   },
   "private": true,
   "dependencies": {
