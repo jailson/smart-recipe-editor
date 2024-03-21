@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
+
+![Smart Recipe Editor](images/smart-recipe-editor-screenshot.png)
+
+## Features
+
+It it's made to be your recipe editor with AI that can help you with formatting, adding alternative measuring, suggesting substitutions, adding checklists, estimating servings, calculating nutritional information, and adjusting the recipe serving (double or half) and more!
+
+If you're feeling lucky, just try the Make it pretty shortcut and have fun!
+
+![Smart Recipe Editor](images/smart-recipe-editor-make-it-pretty-demo.gif)
+
+
 ## Configuration
 
 Make a copy of the file `environment.example.ts` with the name `environment.ts` and add your API keys for TinyMCE and OpenAI.
