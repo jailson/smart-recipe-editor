@@ -1,6 +1,10 @@
-# SmartRecipeEditor
+# Smart Recipe Editor
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+
+## Configuration
+
+Make a copy of the file `environment.example.ts` with the name `environment.ts` and add your API keys for TinyMCE and OpenAI.
 
 ## Development server
 
